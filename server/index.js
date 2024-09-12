@@ -39,6 +39,7 @@ app.post("/users", (req, res) => {
     let { name, age, city } = req.body
     if (!name || !age || !city) {
         res.status(400).send({ message: "All feilds are required!" })
+        return;
     }
     // let id = Date.now();
     let userIdCounter = Math.max(...users.map(user => user.id), 0) + 1;

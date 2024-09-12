@@ -131,18 +131,18 @@ function App() {
 
           <tbody>
             {filterusers &&
-              filterusers.map((users, index) => {
+              filterusers.map((user, index) => {
                 return (
-                  <tr key={users.id} >
+                  <tr key={user.id} >
                     <td> {index + 1} </td>
-                    <td> {users.name} </td>
-                    <td> {users.age} </td>
-                    <td> {users.city} </td>
+                    <td> {user.name} </td>
+                    <td> {user.age} </td>
+                    <td> {user.city} </td>
                     <td>
-                      <button className='edit-btn' type="button" onClick={() => handleUpdateRecoed(users)}>Edit</button>
+                      <button className='edit-btn' type="button" onClick={() => handleUpdateRecoed(user)}>Edit</button>
                     </td>
                     <td>
-                      <button className='delete-btn' onClick={() => handleDelete(users.id)} type="button">Delete</button>
+                      <button className='delete-btn' onClick={() => handleDelete(user.id)} type="button">Delete</button>
                     </td>
                   </tr>
                 )
