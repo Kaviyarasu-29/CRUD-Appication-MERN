@@ -64,12 +64,12 @@ h3 {
 .table td {
   padding: 10px;
   text-align: left;
-  border: 1px solid #b0afaf;
+  border: 1px solid #ddd;
 }
 
 .table th {
   text-align: center;
-  background-color: #d9d9d9;
+  background-color: #f2f2f2;
   font-weight: bold;
 }
 
@@ -78,7 +78,7 @@ h3 {
 }
 
 .table tr:nth-child(even) {
-  background-color: #d9d9d9;
+  background-color: #f9f9f9;
 }
 
 /* Edit and Delete buttons */
@@ -104,80 +104,5 @@ h3 {
 }
 
 .table .delete-btn:hover {
-  background-color: #ad0818;
-}
-
-
-.modal {
-  display: block; 
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-  overflow: auto; 
-}
-
-.modal-content{
-  background-color: #fefefe;
-  margin: 10% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-.modal-content h2{
-  margin-bottom: 30px;
-}
-
-.close{
-  color:#aaa;
-  float: right;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.close:hover, .close:focus{
-  color: #000;
-  cursor: pointer;
-}
-
-/* Input group styling */
-.inp-grout {
-  margin-bottom: 15px;
-}
-
-/* Input field styling */
-.inp-grout input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: #f9f9f9;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.inp-grout input:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-}
-
-/* Button styling inside modal */
-.modal-content button {
-  width: 100%;
-  padding: 10px;
-  background-color: #28a745;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.modal-content button:hover {
-  background-color: #218838;
+  background-color: #c82333;
 }
