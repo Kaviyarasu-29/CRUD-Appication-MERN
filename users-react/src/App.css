@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h3 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Search input and button container */
+.input-sreach {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Search input */
+.input-sreach input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Add button */
+.input-sreach button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-sreach button:hover {
+  background-color: #218838;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Edit and Delete buttons */
+.table button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table .edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table .edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.table .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.table .delete-btn:hover {
+  background-color: #c82333;
+}
